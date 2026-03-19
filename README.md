@@ -71,7 +71,7 @@ Este arquivo realiza a análise com base na variável `Dalc`, que representa o *
 
 ### `fluxograma_dalc.puml`
 
-![Árvore de decisão com Dalc](./assets/fluxograma_Dalc.png)
+![Árvore de decisão com Dalc](./assets/Fluxograma_Dalc.png)
 
 ---
 
@@ -85,6 +85,6 @@ Este arquivo realiza a análise com base na variável `Walc`, que representa o *
 
 ### `fluxograma_dalc.puml`
 
-![Árvore de decisão com Dalc](./assets/fluxograma_Walc.png)
+![Árvore de decisão com Dalc](./assets/Fluxograma_Walc.png)
 
 ---
