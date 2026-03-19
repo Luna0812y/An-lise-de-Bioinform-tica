@@ -1,0 +1,24 @@
+@startuml
+title Fluxograma de decisão - Dalc (Consumo Semanal)
+start
+
+if (Dalc <= 1.5? = Consumo Baixo) then (sim)
+    :Desempenho = médio;
+else (não)
+    if (Dalc <= 3.5? = Consumo Alto) then (sim)
+        if (Dalc <= 2.5? = Consumo Médio) then (sim)
+            :Desempenho = baixo;
+        else (não)
+            :Desempenho = baixo;
+        endif
+    else (não)
+        if (Dalc <= 4.5? = Consumo Alto) then (sim)
+            :Desempenho = baixo;
+        else (não)
+            :Desempenho = médio;
+        endif
+    endif
+endif
+
+stop
+@enduml

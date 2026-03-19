@@ -1,0 +1,24 @@
+@startuml
+title Fluxograma de decisão - Walc (Consumo Fim de Semana)
+start
+
+if (Walc <= 3.5? = Consumo Alto) then (sim)
+  if (Walc <= 2.5? = Consumo Médio) then (sim)
+    if (Walc <= 1.5? = Consumo Baixo) then (sim)
+      :Desempenho = médio;
+    else (não)
+      :Desempenho = médio;
+    endif
+  else (não)
+    :Desempenho = baixo;
+  endif
+else (não)
+  if (Walc <= 4.5? = Consumo Alto) then (sim)
+    :Desempenho = baixo;
+  else (não)
+    :Desempenho = baixo;
+  endif
+endif
+
+stop
+@enduml
