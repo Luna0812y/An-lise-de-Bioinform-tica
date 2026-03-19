@@ -1,4 +1,4 @@
-# Análise do Consumo de Álcool no Fim de Semana e Desempenho Escolar em Matemática
+# Análise do Consumo de Álcool Por Média dos Alunos em Matemática
 
 ## Sobre o projeto
 
